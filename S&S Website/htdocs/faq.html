@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="Java/script.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Sam & Sons Card: Cards and Collectables</h1>
+</header>
+
+<nav>
+    <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="dealersdigest.html">The Now</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="page-container">
+    <h2>
+        Feel free to look through some of our frequently asked questions we have heard recently. Can't find the answer you are looking for? 
+        Feel free to message us directly from our information in the Contact tab or in the message board below.
+    </h2>
+    <button id="ques-btn">Contact Us</button>
+
+</div>
+
+<div class="questions">
+    <details>
+        <summary>Where is our company based and where should I expect my orders to be shipped from?</summary>
+        <div class="ques">Currently, Sam and Sons: Cards and Collectables&copy; is based in the northern 
+            region of Indiana, stemming from Elkhart County, Indiana. Any and all orders will be sent 
+            out directly from any neighboring post offices in the area.
+        </div>
+    </details>
+
+    <details>
+        <summary>How do we determine all of our prices for our items?</summary>
+        <div class="ques">As of right now, with lack of subscription services, pricing our items has been a strenuous task.
+            However, we had much luck using past sales on Ebay and current value checking websites, such as sportscardpro and 130pt.
+            That being said, all prices were instated the day the offer went live. In the card collecting hobby, it is common
+            to see card values fluctuate as time passes. Feel free to shoot us an offer based on recent comps. All prices are negotiable.
+        </div>
+    </details>
+
+    <details>
+        <summary>What exactly are you interested in purchasing?</summary>
+        <div class="ques">We specialize in many different areas, spanning various sports. Personally, we especially enjoy collecting and purchasing
+            more vintage cards, specifically baseball. That being said, we also expand further into vintage basketball and more modern sets of the big three
+        (Football, Baseball, Basketball). We are interested in anything really, but we prefer buying bigger lots at a discounted price to further our collections
+        and to restock our table. Don't be afraid to send a inquiry describing singles, we'd love to see what sort of deal we can make.
+        </div>
+    </details>
+
+    <details>
+        <summary>How do we go about shipping?</summary>
+        <div class="ques">
+        Depending on the size of the order, we typically ship cards in sleeves and toploaders, sealed inside a bubble mailer to keep the cards safe at all cost.
+        </div>
+    </details>
+
+    <details>
+        <summary>Are we open to trades?</summary>
+        <div class="ques">
+        Yes! We are willing to work with any customer to ensure that they are satisfied with the trade, whether its monetary value or sentimental value.
+        </div>
+    </details>
+
+    <details>
+        <summary>How important is the condition of the card to your company?</summary>
+        <div class="ques">
+        The condtion of any cards we receive from orders or trades in failry relevant. Its condition allows us to give competitive prices and the conditon of the card
+        can and will affect its value and place in the current market. If we believe we cannot move it, the chances of making a deal drop.
+        </div>
+    </details>
+
+    <details>
+        <summary>How often is your inventory updated?</summary>
+        <div class="ques">
+            Our inventory changes frequently based on sales, new purchases, and card show acquisitions. We recommend checking the
+            Services page regularly or visting our company socials. This is where you could find current sales and invetory changes.
+        </div>
+    </details>
+
+    <details>
+        <summary>Can you help new collectors get started?</summary>
+        <div class="ques">
+            Yes. We enjoy helping beginners learn the hobby, understand card values, and build their first collection.
+            Feel free to reach out with any questions about getting started.
+        </div>
+    </details>
+
+    <details>
+        <summary>Are you willing to help struggling vendors sell their inventory?</summary>
+        <div class="ques">
+            Of course! If you are struggling to move your cards, get into contact with us and we will come to an agreement on a consignment deal.
+        </div>
+    </details>
+
+</div>
+
+<section class="inquiry-box">
+
+    <h2>Have a question?</h2>
+    <p>Don't hesitate to ask us anything. We are here to support you on your card collecting journey!</p>
+
+    <form action="submit.php" method="post">
+
+        <input type="text" name="fullname" placeholder="Your Name" required>
+
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <input type="text" name="item" placeholder="Subject Line" required>
+
+        <input type="text" name="phone" placeholder="Phone Number">
+
+        <textarea name="message" rows="6"
+            placeholder="Type your questions here..." required></textarea>
+
+        <button type="submit">Send Inquiry</button>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Sam and Sons</p>
+</footer>
+
+</body>
